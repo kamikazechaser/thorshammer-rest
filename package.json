@@ -1,0 +1,21 @@
+{
+  "name": "tg-rest",
+  "version": "1.0.0",
+  "description": "REST API  For ThorsHammer Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kamikazechaser/thorshammer.git"
+  },    
+  "author": "Mohammed Sohail <sohailsameja@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://tg-kamikazechaser.rhcloud.com",    
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  }
+}
