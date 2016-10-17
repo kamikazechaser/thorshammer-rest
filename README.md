@@ -2,7 +2,7 @@
 
 This REST API is useful to bot developers who want to resolve a username to get the userid of a Telegram user.
 
-_This API depends on a bot ([ThorsHammer](https://telegram.me/ThorsHammerBot)) to collect this data. As at the time of writting this the bot had 25k+ cached users. To improve this service I recommend all users to add the bot to groups as it serves 2 advantages:_
+_This API depends on a bot ([ThorsHammer](https://telegram.me/ThorsHammerBot)) to collect this data. As at the time of writting this the bot had 55k+ cached users. To improve this service I recommend all users to add the bot to groups as it serves 2 advantages:_
 - _Protects the group from Globally Banned Users by sending a message when a banned user joins the group_
 - _Allows the database to grow making this API much better_
 
@@ -11,7 +11,7 @@ _This API depends on a bot ([ThorsHammer](https://telegram.me/ThorsHammerBot)) t
  #### Base URL
  
  ```
-🔒 https://tg-kamikazechaser.rhcloud.com/api
+🔒 https://tgrest.herokuapp.com/api
 ```
 
 

@@ -21,7 +21,6 @@ var mongodb = require('mongodb');
 
 var mongourl = 'mongo-url'
 var usersc = 'users';
-var ObjectId = mongodb.ObjectID;
 var db;
 
 // Initailize Express
@@ -39,7 +38,7 @@ mongodb.MongoClient.connect(mongourl, function (err, database) {
     db = database;
     console.log('Successfully connected to MongoDB!');
 
-    var server = app.listen(process.env.PORT || 8080 || 8080, function () {
+    var server = app.listen(process.env.PORT || 5000, function () {
         var port = server.address().port;
         console.log('Server Started On:', port);
     });
