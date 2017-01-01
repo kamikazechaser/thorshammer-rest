@@ -1,3 +1,6 @@
+>  refer to tg-resolve for a better option
+
+
 # API Reference
 
 This REST API is useful to bot developers who want to resolve a username to get the userid of a Telegram user.
